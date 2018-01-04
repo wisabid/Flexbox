@@ -55,6 +55,32 @@
 		.container-3 .bx {
 			flex-basis: 12%;
 		}
+		.flex-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: dodgerblue;
+			height: 400px;
+		}
+		.flex-container2 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #ccc;
+			height: 400px;
+		}
+		.flex-container>div, .flex-container2>div {
+	  		background-color: #f1f1f1;
+	  		color: white;
+	  		width: 100px;
+	  		height: 100px;
+		}
+		.flex-container2>div {
+			 margin: 10px;
+			 color:#000;
+			 text-align: center;
+			 line-height: 75px;
+		}
 	</style>
 </head>
 <body>
@@ -126,6 +152,16 @@
 		<h3>Box Three3</h3>
 		<p>Lorem Epsum Lorem Epsum Lorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem Epsum</p>
 	</div>
+</div>
+
+<div class="flex-container">
+		<div></div>
+</div>
+
+<div class="flex-container2">
+		<div>1</div>
+  		<div>2</div>
+  		<div>3</div> 
 </div>
 
 </body>
